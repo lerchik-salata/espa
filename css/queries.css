@@ -1,0 +1,439 @@
+@media (max-width: 1250px) {
+  .hero-section {
+    padding: 10rem;
+  }
+  .hero-btns {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 968px) {
+  .hero-section {
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .hero-img-box {
+    width: 100%;
+  }
+
+  .hero-text-box {
+    text-align: center;
+  }
+
+  .heading-primary {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+
+  .heading-tertiary {
+    font-size: 3.6rem;
+  }
+
+  .hero-text {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+  }
+
+  .hero-tags .tag {
+    padding: 0.8rem;
+  }
+
+  .hero-date {
+    padding: 1.6rem 2.4rem;
+    gap: 2rem;
+  }
+
+  .date-next {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .date {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .date-caption {
+    font-size: 1rem;
+  }
+
+  .hero-btns {
+    flex-direction: column;
+  }
+
+  .section-testimonials {
+    flex-direction: column;
+    text-align: center;
+    padding: 10rem 2rem;
+  }
+
+  .testimonial {
+    margin-left: 0;
+    margin-top: 5rem;
+  }
+
+  .btn-next {
+    margin-top: 3rem;
+  }
+
+  .road-map {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .journey-markup {
+    display: none;
+  }
+
+  .journey-list-box {
+    margin-top: 2rem;
+  }
+
+  .journey-feature-box {
+    margin-top: 2rem;
+  }
+
+  .section-action {
+    margin-top: 10rem;
+  }
+
+  .action-box {
+    flex-direction: column;
+    text-align: center;
+    padding: 5rem;
+  }
+
+  .action-box img {
+    width: 70%;
+  }
+
+  .action-text {
+    font-size: 2.4rem;
+    margin-bottom: 3rem;
+  }
+
+  .section-questions {
+    margin: 12rem 4rem;
+  }
+
+  .questions {
+    margin-top: 8rem;
+  }
+
+  .question-box {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2.4rem 0;
+    border-bottom: 0.1rem solid #fff;
+  }
+
+  .question-box:last-child {
+    border: none;
+  }
+
+  .question {
+    font-size: 2.8rem;
+    line-height: 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .road-item,
+  .road-item:nth-child(odd) {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .journey-list-box {
+    width: 100%;
+  }
+
+  .testimonial {
+    flex-direction: column;
+  }
+
+  .testimonial-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 80rem;
+    margin: 0 auto;
+  }
+
+  .hero-section {
+    padding: 2rem;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .hero-img-box {
+    width: 50%;
+  }
+
+  .hero-date {
+    display: inline-flex;
+    padding: 4rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .date-next,
+  .date,
+  .date-caption {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+  }
+
+  .section-sponsored {
+    padding: 2rem;
+  }
+
+  .sponsored-logos {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .sponsored-logos img {
+    width: 40%;
+  }
+
+  .section-upcoming {
+    padding: 15rem 2rem;
+  }
+
+  table {
+    padding: 3rem;
+  }
+
+  th,
+  td {
+    font-size: 1.8rem;
+    padding: 1rem 2rem;
+  }
+
+  .table-caption {
+    font-size: 1rem;
+  }
+
+  .section-help {
+    flex-direction: column;
+    gap: 3rem;
+    padding: 20rem 4rem;
+  }
+
+  .help-img-box,
+  .help-text-box {
+    width: 100%;
+  }
+
+  .help-text {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .experts-container {
+    flex-wrap: wrap;
+  }
+
+  .expert-card {
+    width: 48%;
+    margin-bottom: 2rem;
+  }
+
+  .action-box {
+    flex-direction: column;
+    padding: 5rem;
+  }
+
+  .action-box img {
+    width: 100%;
+    height: auto;
+  }
+
+  .action-text {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .msp-text {
+    font-size: 3.2rem;
+  }
+
+  .msp-element {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .section-questions {
+    margin: 10rem 2rem;
+  }
+
+  .questions {
+    margin-top: 6rem;
+  }
+
+  .question-box {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2.4rem 0;
+    border-bottom: 0.1rem solid #fff;
+  }
+
+  .question-box:last-child {
+    border: none;
+  }
+
+  .question {
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .heading-tertiary {
+    font-size: 3.2rem;
+  }
+
+  .journey-list li {
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+  }
+
+  .hero-tags {
+    flex-wrap: wrap;
+  }
+
+  .hero-decor {
+    display: none;
+  }
+
+  .btn-fill {
+    padding: 1.2rem 1.6rem;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+  }
+
+  .btn-outline {
+    padding: 1.2rem 1.6rem;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+  }
+
+  .link {
+    font-size: 1.6rem;
+  }
+
+  .header {
+    padding: 0 2rem;
+  }
+
+  .header p {
+    font-size: 1.6rem;
+  }
+
+  .help-text {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+
+  .expert-card {
+    width: 80%;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  table {
+    padding: 1rem;
+  }
+
+  th,
+  td {
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    padding: 0.5rem;
+  }
+
+  th {
+    padding: 0.5rem 1rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .hero-section {
+    flex-direction: row;
+  }
+
+  .hero-img-box {
+    width: 40%;
+  }
+
+  .hero-text-box {
+    width: 60%;
+  }
+}
+
+@media (max-width: 380px) {
+  .hero-tags {
+    flex-wrap: wrap;
+  }
+
+  .btn-fill,
+  .btn-outline {
+    padding: 1rem 1.2rem;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+  }
+
+  .link {
+    font-size: 1.4rem;
+  }
+
+  .header {
+    padding: 0 1rem;
+  }
+
+  .header p {
+    font-size: 1.4rem;
+  }
+
+  .help-text {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+
+  .expert-card {
+    width: 80%;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  table {
+    padding: 0.5rem;
+  }
+
+  th,
+  td {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    padding: 0.3rem;
+  }
+
+  th {
+    padding: 0.3rem 0.6rem;
+  }
+}
